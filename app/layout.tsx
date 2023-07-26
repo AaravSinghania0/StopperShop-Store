@@ -24,7 +24,7 @@ export default function RootLayout({
 				<ToastProvider />
 				<ModalProvider />
 				<Navbar />
-				<main className="pt-[3.5rem] bg-slate-50">{children}</main>
+				<main className="pt-16">{children}</main>
 				<Footer />
 			</body>
 		</html>
