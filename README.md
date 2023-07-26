@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# StopperShop Store
 
-## Getting Started
+A project to learn modern full-stack web development.
 
-First, run the development server:
+### An E-Commerce Front for StopperShop Admin Dashboard & CMS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+**Visit [StopperShop](https://stoppershop-store.vercel.app) to see the store I created.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Visit [StopperShop Dashboard](https://stoppershop-dashboard.vercel.app) to start creating your own store.**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-   Browse through a catalogue of products.
+-   Home page displays a card in which you can swipe through various billboards, and shows a list of all featured products.
+-   View products under a particular category, and filter them by size or color.
+-   Preview the product by clicking on expand button or add to cart directly from the product list.
+-   Click on the individual product to view a detailed product page with a gallery of images and related products in the same category.
+-   Integration with Stripe provides a seamless and secure payment gateway for your purchases.
 
-## Learn More
+### Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+-   **Language:** TypeScript & JSX
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   **Frameworks & libraries:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    -   NextJS with Tailwind CSS,
+    -   Headless UI components, and
+    -   Zustand (for state management).
 
-## Deploy on Vercel
+### Acknowledgements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+-   The branding _StopperShop_ is just for styling purposes, I hold no affiliation or rights under this name. I’m simply too lazy to think of a more creative name, rather than ripping off a popular Indian franchise.
+-   This project was made by following the brilliant tutorial by [Code With Antonio](https://www.youtube.com/watch?v=5miHyP6lExg).
+-   This project is not completely optimized for mobile responsiveness.
