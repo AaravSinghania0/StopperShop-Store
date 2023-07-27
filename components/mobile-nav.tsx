@@ -39,7 +39,7 @@ const MobileNav: FC<MobileNavProps> = ({ routes }) => {
 				onClose={onClose}
 			>
 				{/* Background color and opacity */}
-				<div className="fixed inset-0 bg-slate-900 bg-opacity-25 backdrop-blur-[2px]" />
+				<div className="fixed inset-0 bg-slate-900 bg-opacity-30 backdrop-blur-[2px]" />
 
 				{/* Dialog position */}
 				<div className="fixed inset-0 z-40 flex">
@@ -55,14 +55,14 @@ const MobileNav: FC<MobileNavProps> = ({ routes }) => {
 							/>
 						</div>
 
-						<div className="p-4 flex flex-col space-y-3">
+						<div className="mt-3 p-4 border-t flex flex-col space-y-3">
 							{routes.map((route) => (
 								<Link
 									key={route.href}
 									href={route.href}
 									onClick={onClose}
 									className={cn(
-										"border rounded-md bg-slate-100 text-center text-2xl font-medium transition-colors hover:text-slate-900",
+										"border py-2 rounded-md bg-slate-100 text-center text-xl font-medium transition-colors hover:text-slate-900",
 										route.active
 											? "text-slate-900"
 											: "text-slate-500"
